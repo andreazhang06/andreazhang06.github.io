@@ -53,6 +53,22 @@ a {
   text-decoration: none;
 }
 
+label {
+  font-family: Jura, monospace;
+  font-size: 20px;
+  letter-spacing: -6%;
+  line-height: auto;
+  border-radius: 90px;
+  background: rgba(139, 139, 139, 0.25);
+  width: 71px;
+  padding:0px 8px;
+  margin: 5px;
+}
+
+label:hover {
+  background: green;
+}
+
 .container {
   display: grid;
   align-items: center;
@@ -76,22 +92,6 @@ a {
   letter-spacing: -2%;
   line-height: auto;
   margin: 5px;
-}
-
-.seen {
-  font-family: Jura, monospace;
-  font-size: 16px;
-  letter-spacing: -6%;
-  line-height: auto;
-  border-radius: 90px;
-  background: rgba(139, 139, 139, 0.25);
-  width: 71px;
-  padding:0px 8px;
-  margin: 5px;
-}
-
-.seen:hover {
-  background: green;
 }
 
 .closeup {
